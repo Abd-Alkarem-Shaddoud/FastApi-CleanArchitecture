@@ -1,0 +1,37 @@
+services:
+  # postgres:
+  #   image: postgres:15
+  #   container_name: my_postgres
+  #   environment:
+  #     POSTGRES_USER: postgres
+  #     POSTGRES_PASSWORD: admin
+  #     POSTGRES_DB: HomneyDB
+  #   ports:
+  #     - "5432:5432"
+  #   volumes:
+  #     - postgres_data:/var/lib/postgresql/data
+
+  # redis:
+  #   image: redis:7
+  #   container_name: HomneyRedis
+  #   ports:
+  #     - "6379:6379"
+
+# volumes:
+#   postgres_data:
+
+
+
+
+
+#docker compose up -d
+#docker compose ps
+#docker compose down
+
+
+# wsl -l -v
+# wsl --update
+# wsl --set-version Ubuntu 2
+# NAME              STATE     VERSION
+# Ubuntu            Stopped   2
+# docker-desktop    Running   2

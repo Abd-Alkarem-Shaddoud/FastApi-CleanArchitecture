@@ -1,0 +1,4 @@
+python -m venv .venv
+ctrl+shift+p => select interpreter => .venv/Scripts/python.exe
+cd .venv/Scripts/activate.bat
+(.venv)> pip install -r requirements.txt
